@@ -105,7 +105,7 @@ st.markdown(make_table(counts), unsafe_allow_html=True)
 
 st.header("Your shortlist")
 chosen = st.multiselect("Bands to show", ["High", "Medium", "Low"], default=["High", "Medium"])
-k = st.slider("Number of candidates", 10, 500, 100)
+k = st.slider("Number of candidates:", 10, 500, 100)
 
 shortlist = ranking[ranking["Band"].isin(chosen)].head(k)
 

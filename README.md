@@ -19,7 +19,7 @@ I do not use accuracy as the main number. A model that always says "not a planet
 
 ## Data
 
-NASA Exoplanet Archive, Kepler Objects of Interest cumulative table. 9,564 rows. Downloaded on [add date from your file name].
+NASA Exoplanet Archive, Kepler Objects of Interest cumulative table. 9,564 rows. Downloaded on 2026-10-30.
 
 - Confirmed planets: 2,748
 - False positives (signals that look like planets but are not): 4,839
